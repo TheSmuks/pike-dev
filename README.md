@@ -1,15 +1,45 @@
 <div align="center">
   <h1>pike-dev</h1>
   <p><strong>Everything you need to build with Pike.</strong></p>
-  <p>A unified hub for the Pike development toolchain — version management, language tooling, testing, and AI-assisted development.</p>
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+  [![11 Projects](https://img.shields.io/badge/Projects-11-brightgreen)](https://github.com/TheSmuks)
+  [![Pike 8.0+](https://img.shields.io/badge/Pike-8.0%2B-orange)](https://pike.lysator.liu.se/)
+  [![GitHub Stars](https://img.shields.io/github/stars/TheSmuks/pike-dev?style=social)](https://github.com/TheSmuks/pike-dev)
 </div>
 
-## Badges
+## Projects
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![11 Projects](https://img.shields.io/badge/Projects-11-brightgreen)](https://github.com/TheSmuks)
-[![Pike 8.0+](https://img.shields.io/badge/Pike-8.0%2B-orange)](https://pike.lysator.liu.se/)
-[![GitHub Stars](https://img.shields.io/github/stars/TheSmuks/pike-dev?style=social)](https://github.com/TheSmuks/pike-dev)
+### Language Tooling
+
+| Project | Description | Status |
+|---------|-------------|--------|
+| [pike-language-server](https://github.com/TheSmuks/pike-language-server) | Tier-3 LSP — syntax highlighting, diagnostics, completions, hover | Active |
+| [pike-ast](https://github.com/TheSmuks/pike-ast) | AST library — tokenization, parsing, querying, pattern matching | Active |
+| [tree-sitter-pike](https://github.com/TheSmuks/tree-sitter-pike) | Tree-sitter grammar for Pike 8.0.1116 | Active |
+| [pike-lsp](https://github.com/TheSmuks/pike-lsp) | Legacy LSP — superseded by pike-language-server | Maintenance |
+
+### Package & Version Management
+
+| Project | Description | Status |
+|---------|-------------|--------|
+| [pvm](https://github.com/TheSmuks/pvm) | Pike Version Manager — install and switch between Pike versions | Active |
+| [pmp](https://github.com/TheSmuks/pmp) | Package manager — install, version, and resolve dependencies | Active |
+| [pmp-example-module](https://github.com/TheSmuks/pmp-example-module) | Minimal example of a pmp-installable Pike module | Active |
+
+### Developer Experience
+
+| Project | Description | Status |
+|---------|-------------|--------|
+| [punit-tests](https://github.com/TheSmuks/punit-tests) | JUnit-inspired testing framework for Pike | Active |
+| [pike-introspect](https://github.com/TheSmuks/pike-introspect) | Runtime introspection — symbol inspection and LLM agent skill | Active |
+| [pike-cookbook](https://github.com/TheSmuks/pike-cookbook) | Complete Pike 8.0 programming cookbook with recipes and examples | Active |
+
+### AI & LLM Support
+
+| Project | Description | Status |
+|---------|-------------|--------|
+| [pike-ai-kb](https://github.com/TheSmuks/pike-ai-kb) | Curated, runtime-verified knowledge base — 130+ stdlib modules, MCP server | Active |
 
 ## Ecosystem
 
@@ -63,12 +93,13 @@ graph TD
 
 ## Quick Start
 
-Clone the entire ecosystem with one command:
-
 ```bash
 git clone --recurse-submodules https://github.com/TheSmuks/pike-dev.git
 cd pike-dev
 ```
+
+<details>
+<summary>More clone options</summary>
 
 Or initialize submodules after cloning:
 
@@ -84,48 +115,7 @@ Update all submodules to their latest versions:
 git submodule update --remote
 ```
 
-## Projects
-
-### Language Tooling
-
-[![pike-language-server](https://img.shields.io/badge/pike--language--server-active-brightgreen)](https://github.com/TheSmuks/pike-language-server)
-Tier-3 LSP implementation for Pike — syntax highlighting, diagnostics, completions, hover
-
-[![pike-ast](https://img.shields.io/badge/pike--ast-active-brightgreen)](https://github.com/TheSmuks/pike-ast)
-Pure-Pike AST library — tokenization, parsing, querying, and pattern matching
-
-[![tree-sitter-pike](https://img.shields.io/badge/tree--sitter--pike-active-brightgreen)](https://github.com/TheSmuks/tree-sitter-pike)
-Tree-sitter grammar for Pike 8.0.1116 — syntax highlighting and AST queries
-
-[![pike-lsp](https://img.shields.io/badge/pike--lsp-maintenance-yellow)](https://github.com/TheSmuks/pike-lsp)
-Legacy LSP implementation — superseded by `pike-language-server`
-
-### Package & Version Management
-
-[![pvm](https://img.shields.io/badge/pvm-active-brightgreen)](https://github.com/TheSmuks/pvm)
-Pike Version Manager — install, manage, and switch between Pike versions
-
-[![pmp](https://img.shields.io/badge/pmp-active-brightgreen)](https://github.com/TheSmuks/pmp)
-Package manager for Pike modules — install, version, and resolve dependencies
-
-[![pmp-example-module](https://img.shields.io/badge/pmp--example--module-active-brightgreen)](https://github.com/TheSmuks/pmp-example-module)
-Minimal example of a pmp-installable Pike module
-
-### Developer Experience
-
-[![punit-tests](https://img.shields.io/badge/punit--tests-active-brightgreen)](https://github.com/TheSmuks/punit-tests)
-JUnit-inspired testing framework for Pike
-
-[![pike-introspect](https://img.shields.io/badge/pike--introspect-active-brightgreen)](https://github.com/TheSmuks/pike-introspect)
-Pike runtime introspection module — runtime symbol inspection and an LLM agent skill
-
-[![pike-cookbook](https://img.shields.io/badge/pike--cookbook-active-brightgreen)](https://github.com/TheSmuks/pike-cookbook)
-Complete Pike 8.0 programming cookbook with practical recipes and examples
-
-### AI & LLM Support
-
-[![pike-ai-kb](https://img.shields.io/badge/pike--ai--kb-active-brightgreen)](https://github.com/TheSmuks/pike-ai-kb)
-Curated, runtime-verified knowledge base for Pike — 130+ stdlib modules, MCP server, agent skill
+</details>
 
 ## Toolchain Flow
 
