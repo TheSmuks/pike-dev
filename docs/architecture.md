@@ -17,7 +17,6 @@ graph TD
     subgraph "Package & Version Management"
         PVM[pvm]
         PMP[pmp]
-        SHOW[pmp-showcase]
         EX[pmp-example-module]
     end
 
@@ -44,7 +43,6 @@ graph TD
     P --> PLS
     P --> AST
 
-    PMP --> SHOW
     PMP --> EX
 
     TSP --> PLS
@@ -75,7 +73,6 @@ graph TD
 |---------|-------------|
 | `pvm` | Pike Version Manager — install, manage, switch versions |
 | `pmp` | Package manager for Pike modules |
-| `pmp-showcase` | Demo library showcasing pmp features |
 | `pmp-example-module` | Minimal example of a pmp-installable module |
 
 ### Developer Experience
@@ -104,10 +101,7 @@ graph TD
        pvm            pmp           pike-ast
          |              |               |
          |              v               v
-         |          pmp-showcase    tree-sitter-pike
-         |              |               |
-         |              v               v
-         |        pmp-example-module    LSP
+         |        pmp-example-module tree-sitter-pike
          |              |               |
          +------+-------+               |
                 |                       |
@@ -142,7 +136,6 @@ The hub repo (`pike-dev`) only tracks commit references via `.gitmodules`.
 | `pike-language-server` | `pike-ast` | Uses for parsing |
 | `pike-language-server` | `pike-introspect` | Uses for type info |
 | `pmp` | `pmp-example-module` | Reference impl |
-| `pmp` | `pmp-showcase` | Demo application |
 
 ## Maintenance
 
