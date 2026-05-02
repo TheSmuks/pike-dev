@@ -1,0 +1,77 @@
+name: Bug Report
+description: Report a bug in one of the Pike projects
+title: "[Bug] "
+labels: ["bug"]
+body:
+
+- type: markdown
+  attributes:
+    value: |
+      ## Bug Report
+
+      Thanks for taking the time to fill out this bug report!
+
+- type: dropdown
+  attributes:
+    label: Affected Project
+    description: Which project is this bug in?
+    options:
+      - pvm
+      - pike-language-server
+      - pmp
+      - pike-introspect
+      - punit-tests
+      - tree-sitter-pike
+      - pike-ast
+      - pmp-showcase
+      - pike-ai-kb
+      - pmp-example-module
+      - pike-lsp
+      - pike-cookbook
+      - Hub repository (pike-dev)
+      - Other
+  validations:
+    required: true
+
+- type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: A clear and concise description of what the bug is.
+    placeholder: Tell us what you expected vs what actually happened
+  validations:
+    required: true
+
+- type: textarea
+  id: steps
+  attributes:
+    label: Steps to Reproduce
+    description: How to reproduce this bug
+    placeholder: |
+      1. Go to '...'
+      2. Run '...'
+      3. See error
+  validations:
+    required: true
+
+- type: textarea
+  id: expected
+  attributes:
+    label: Expected Behavior
+    description: What should happen
+  validations:
+    required: true
+
+- type: textarea
+  id: actual
+  attributes:
+    label: Actual Behavior
+    description: What actually happens
+  validations:
+    required: true
+
+- type: input
+  attributes:
+    label: Pike Version
+    description: Which Pike version are you using? (run `pike --version`)
+    placeholder: 8.0.1116

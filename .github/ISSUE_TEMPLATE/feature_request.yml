@@ -1,0 +1,55 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+
+- type: markdown
+  attributes:
+    value: |
+      ## Feature Request
+
+      Thanks for suggesting a new feature!
+
+- type: dropdown
+  attributes:
+    label: Affected Project
+    description: Which project should this feature be added to?
+    options:
+      - pvm
+      - pike-language-server
+      - pmp
+      - pike-introspect
+      - punit-tests
+      - tree-sitter-pike
+      - pike-ast
+      - pmp-showcase
+      - pike-ai-kb
+      - pmp-example-module
+      - pike-lsp
+      - pike-cookbook
+      - Hub repository (pike-dev)
+      - New project
+      - Other
+  validations:
+    required: true
+
+- type: textarea
+  id: description
+  attributes:
+    label: Feature Description
+    description: A clear and concise description of what you want to happen.
+  validations:
+    required: true
+
+- type: textarea
+  id: alternatives
+  attributes:
+    label: Alternatives Considered
+    description: What alternatives have you considered?
+
+- type: textarea
+  id: context
+  attributes:
+    label: Additional Context
+    description: Any other context about the feature request
