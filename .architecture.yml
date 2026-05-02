@@ -1,0 +1,21 @@
+# Code quality thresholds for this project.
+# These are used by code review tools and CI checks.
+# Adjust values to match your project's conventions.
+
+# File size limits
+max_file_lines: 1000          # Soft limit for documentation files
+max_file_lines_hard: 2000     # Hard limit
+
+# Function size limits (for any scripts)
+max_function_lines: 50        # Soft limit for individual functions
+
+# Module complexity
+max_exports: 30               # Maximum public exports per module
+max_nesting_depth: 4          # Maximum nesting levels
+
+# File patterns to exclude from checks
+ignore_patterns:
+  - "repos/**"
+  - "**/node_modules/**"
+  - "docs/decisions/**"
+  - "**/*.generated.*"
