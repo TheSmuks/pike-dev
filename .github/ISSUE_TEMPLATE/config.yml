@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Pike Programming Language
+    url: https://pike.lysator.liu.se/
+    about: General Pike programming questions
