@@ -1,0 +1,32 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Coverage
+coverage/
+
+# Node (for LSP projects in submodules)
+node_modules/
+
+# Pike cache
+*.pike~
+*.pike.bak
