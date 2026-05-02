@@ -1,0 +1,30 @@
+[submodule "repos/pvm"]
+	path = repos/pvm
+	url = https://github.com/TheSmuks/pvm.git
+[submodule "repos/pike-language-server"]
+	path = repos/pike-language-server
+	url = https://github.com/TheSmuks/pike-language-server.git
+[submodule "repos/pmp"]
+	path = repos/pmp
+	url = https://github.com/TheSmuks/pmp.git
+[submodule "repos/pike-introspect"]
+	path = repos/pike-introspect
+	url = https://github.com/TheSmuks/pike-introspect.git
+[submodule "repos/punit-tests"]
+	path = repos/punit-tests
+	url = https://github.com/TheSmuks/punit-tests.git
+[submodule "repos/tree-sitter-pike"]
+	path = repos/tree-sitter-pike
+	url = https://github.com/TheSmuks/tree-sitter-pike.git
+[submodule "repos/pike-ast"]
+	path = repos/pike-ast
+	url = https://github.com/TheSmuks/pike-ast.git
+[submodule "repos/pmp-example-module"]
+	path = repos/pmp-example-module
+	url = https://github.com/TheSmuks/pmp-example-module.git
+[submodule "repos/pike-lsp"]
+	path = repos/pike-lsp
+	url = https://github.com/TheSmuks/pike-lsp.git
+[submodule "repos/pike-cookbook"]
+	path = repos/pike-cookbook
+	url = https://github.com/TheSmuks/pike-cookbook.git
