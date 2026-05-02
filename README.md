@@ -5,7 +5,6 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
   [![11 Projects](https://img.shields.io/badge/Projects-11-brightgreen)](https://github.com/TheSmuks)
   [![Pike 8.0+](https://img.shields.io/badge/Pike-8.0%2B-orange)](https://pike.lysator.liu.se/)
-  [![GitHub Stars](https://img.shields.io/github/stars/TheSmuks/pike-dev?style=social)](https://github.com/TheSmuks/pike-dev)
 </div>
 
 ## Projects
