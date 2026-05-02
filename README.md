@@ -19,7 +19,6 @@ This is a hub repository that aggregates all Pike-related projects under [TheSmu
 | [punit-tests](https://github.com/TheSmuks/punit-tests) | JUnit-inspired testing framework for Pike | Active |
 | [tree-sitter-pike](https://github.com/TheSmuks/tree-sitter-pike) | Pike grammar for tree-sitter — covers Pike 8.0.1116 | Active |
 | [pike-ast](https://github.com/TheSmuks/pike-ast) | AST library for Pike source code — tokenization, parsing, querying, and pattern matching | Active |
-| [pmp-showcase](https://github.com/TheSmuks/pmp-showcase) | Demo library showcasing pmp features | Active |
 | [pike-ai-kb](https://github.com/TheSmuks/pike-ai-kb) | Pike language knowledge base for AI code generation | Active |
 | [pmp-example-module](https://github.com/TheSmuks/pmp-example-module) | Minimal example of a pmp-installable Pike module | Active |
 | [pike-lsp](https://github.com/TheSmuks/pike-lsp) | LSP implementation for Pike with VS Code extension | ⚠️ Maintenance — superseded by [pike-language-server](https://github.com/TheSmuks/pike-language-server) |
@@ -58,7 +57,6 @@ git submodule update --remote
 ### Package & Version Management
 - **pmp** — Pike module package manager
 - **pvm** — Pike version manager
-- **pmp-showcase** — pmp usage demo
 - **pmp-example-module** — Minimal pmp module template
 
 ### Developer Experience
